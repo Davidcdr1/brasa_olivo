@@ -214,7 +214,7 @@ export default function Reservation() {
                                     min={today}
                                     value={date}
                                     onChange={(event) => setDate(event.target.value)}
-                                    className="box-border w-full min-w-0 max-w-full rounded-lg border border-stone-700 bg-stone-800 px-3 py-3 text-white outline-none focus:border-amber-700"
+                                    className="block box-border h-[46px] w-full min-w-0 max-w-full appearance-none rounded-lg border border-stone-700 bg-stone-800 px-3 py-3 text-left text-white outline-none focus:border-amber-700"
                                     required
                                 />
                             </div>
