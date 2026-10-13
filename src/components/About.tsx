@@ -59,22 +59,22 @@ function About() {
                 <div>
                   <p className="text-2xl font-medium">2018</p>
                   <p className="mt-1 text-[10px] sm:text-xs uppercase tracking-[0.08em] sm:tracking-[0.15em] text-white/40">
-  Desde
-</p>
+                     Desde
+                  </p>
                 </div>
   
                 <div>
                   <p className="text-2xl font-medium">100%</p>
                   <p className="mt-1 text-[10px] sm:text-xs uppercase tracking-[0.04em] sm:tracking-[0.15em] text-white/40">
-  Mediterráneo
-</p>
+                    Mediterráneo
+                  </p>
                 </div>
   
                 <div>
                   <p className="text-2xl font-medium">Local</p>
                   <p className="mt-1 text-[10px] sm:text-xs uppercase tracking-[0.08em] sm:tracking-[0.15em] text-white/40">
-  Producto
-</p>
+                   Producto
+                  </p>
                 </div>
               </div>
             </div>
