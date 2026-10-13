@@ -199,7 +199,7 @@ export default function Reservation() {
                             1. Datos de la reserva
                         </h3>
 
-                        <div className="mt-6 grid gap-5 sm:grid-cols-2">
+                        <div className="mt-6 grid min-w-0 grid-cols-1 gap-5 sm:grid-cols-2">
                             <div>
                                 <label
                                     htmlFor="reservation-date"
@@ -214,7 +214,7 @@ export default function Reservation() {
                                     min={today}
                                     value={date}
                                     onChange={(event) => setDate(event.target.value)}
-                                    className="w-full rounded-lg border border-stone-700 bg-stone-800 px-4 py-3 text-white outline-none focus:border-amber-700"
+                                    className="box-border w-full min-w-0 max-w-full rounded-lg border border-stone-700 bg-stone-800 px-3 py-3 text-white outline-none focus:border-amber-700"
                                     required
                                 />
                             </div>
@@ -233,7 +233,7 @@ export default function Reservation() {
                                     onChange={(event) =>
                                         setPeople(Number(event.target.value))
                                     }
-                                    className="w-full rounded-lg border border-stone-700 bg-stone-800 px-4 py-3 text-white outline-none focus:border-amber-700"
+                                    className="box-border w-full min-w-0 max-w-full rounded-lg border border-stone-700 bg-stone-800 px-3 py-3 text-white outline-none focus:border-amber-700"
                                 >
                                     {Array.from({ length: 8 }, (_, index) => index + 1).map(
                                         (number) => (
