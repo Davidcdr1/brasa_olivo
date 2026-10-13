@@ -55,26 +55,26 @@ function About() {
                 </p>
               </div>
   
-              <div className="mt-10 grid grid-cols-3 border-t border-white/15 pt-6">
+              <div className="mt-10 grid grid-cols-3 gap-2 sm:gap-4 border-t border-white/15 pt-6">
                 <div>
                   <p className="text-2xl font-medium">2018</p>
-                  <p className="mt-1 text-xs uppercase tracking-[0.15em] text-white/40">
-                    Desde
-                  </p>
+                  <p className="mt-1 text-[10px] sm:text-xs uppercase tracking-[0.08em] sm:tracking-[0.15em] text-white/40">
+  Desde
+</p>
                 </div>
   
                 <div>
                   <p className="text-2xl font-medium">100%</p>
-                  <p className="mt-1 text-xs uppercase tracking-[0.15em] text-white/40">
-                    Mediterráneo
-                  </p>
+                  <p className="mt-1 text-[10px] sm:text-xs uppercase tracking-[0.04em] sm:tracking-[0.15em] text-white/40">
+  Mediterráneo
+</p>
                 </div>
   
                 <div>
                   <p className="text-2xl font-medium">Local</p>
-                  <p className="mt-1 text-xs uppercase tracking-[0.15em] text-white/40">
-                    Producto
-                  </p>
+                  <p className="mt-1 text-[10px] sm:text-xs uppercase tracking-[0.08em] sm:tracking-[0.15em] text-white/40">
+  Producto
+</p>
                 </div>
               </div>
             </div>
